@@ -1,0 +1,28 @@
+{
+    "interests": [
+        "Computer Vision enables machines to interpret visual data through object detection and image analysis.",
+        "Efficient AI models deliver high performance with minimal resources while ensuring fairness.",
+        "Multimodal AI combines images and text for enhanced understanding in applications.",
+        "Explainable AI makes models transparent while topic modeling extracts hidden themes from data."
+    ],
+    "projects": [
+        {
+            "title": "**Gastrointestinal Abnormality Classification using Lightweight MSCA Architecture**",
+            "note": "**Undergraduate Thesis**",
+            "details": [
+                "Designed a lightweight MobileNet-v2 model with Dual-Pool Dual Block Multi-Scale Channel Attention (MSCA) to classify GI abnormalities in endoscopic images.",
+                "Achieved 93.84% accuracy on the Kvasir-v2 dataset using only 6.95M parameters, outperforming several heavier models and ensemble techniques.",
+                "Enhanced model interpretability using Grad-CAM and channel-wise visualizations, aiding in identifying diagnostically significant regions."
+            ]
+        },
+        {
+            "title": "Balanced Skin Lesion Classification with Explainable LTD Architecture ",
+            "note": "**First Deep Learning Work**",
+            "details": [
+                "Developed an automated skin lesion classification system using a Lightly Tuned DenseNet169 (LTD) architecture with custom convolutional blocks.",
+                "Implemented Prior Augmentation to address dataset imbalance, reducing bias toward the majority class and improving generalization.",
+                "Achieved 98.42% accuracy on the ISIC 2020 dataset and enhanced model explainability through Grad-CAM visualizations."
+            ]
+        }
+    ]
+}

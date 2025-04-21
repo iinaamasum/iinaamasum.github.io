@@ -8,10 +8,10 @@ const Header = () => {
     const toggleMenu = () => setIsOpen(!isOpen);
     const location = useLocation();
 
-    const isActive = (path) => location.pathname === path;
+    const isActive = (paths) => paths.includes(location.pathname);
 
-    const linkClass = (path) =>
-        isActive(path)
+    const linkClass = (paths) =>
+        isActive(paths)
             ? 'text-blue-600 font-semibold'
             : 'text-gray-700 hover:text-blue-500';
 
@@ -19,9 +19,10 @@ const Header = () => {
         <header className="border-b border-gray-200">
             <div className="flex justify-between items-center h-20 px-6 md:px-10">
                 <div
-                    className={`text-2xl cormorant-garamond-bold ${linkClass(
-                        '/portfolio'
-                    )}`}
+                    className={`text-2xl cormorant-garamond-bold ${linkClass([
+                        '/',
+                        '/portfolio',
+                    ])}`}
                 >
                     <Link to="/portfolio">{"Masum's Homepage"}</Link>
                 </div>
@@ -30,13 +31,16 @@ const Header = () => {
                 <nav className="hidden md:flex gap-6">
                     <Link
                         to="/publications"
-                        className={linkClass('/publications')}
+                        className={linkClass(['/publications'])}
                     >
                         Publications
                     </Link>
-                    <span className="text-gray-700">
-                        Research & Developed Artifacts
-                    </span>
+                    <Link
+                        to="/research-interests-projects"
+                        className={linkClass(['/research-interests-projects'])}
+                    >
+                        Research Interests & Projects
+                    </Link>
                     <span className="text-gray-700">Experience</span>
                     <span className="text-gray-700">Teaching & Services</span>
                     <span className="text-gray-700">Awards</span>
@@ -61,14 +65,18 @@ const Header = () => {
                 <nav className="md:hidden flex flex-col gap-4 px-6 pb-4">
                     <Link
                         to="/publications"
-                        className={linkClass('/publications')}
+                        className={linkClass(['/publications'])}
                         onClick={toggleMenu}
                     >
                         Publications
                     </Link>
-                    <span onClick={toggleMenu}>
-                        Research & Developed Artifacts
-                    </span>
+                    <Link
+                        to="/research-interests-projects"
+                        className={linkClass(['/research-interests-projects'])}
+                        onClick={toggleMenu}
+                    >
+                        Research Interests & Projects
+                    </Link>
                     <span onClick={toggleMenu}>Experience</span>
                     <span onClick={toggleMenu}>Teaching & Services</span>
                     <span onClick={toggleMenu}>Awards</span>
