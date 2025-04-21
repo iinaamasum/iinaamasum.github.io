@@ -1,9 +1,14 @@
 import { Route, Routes } from 'react-router-dom';
 import Header from './components/Header';
 import Sidebar from './components/Sidebar';
+import AwardsAchievements from './pages/AwardsAchievements';
+import BlogDetail from './pages/BlogDetail';
+import Blogs from './pages/Blogs';
+import Experience from './pages/Experience';
 import Home from './pages/Home';
 import Projects from './pages/Projects';
 import Publications from './pages/Publications';
+import TeachingServices from './pages/TeachingServices';
 
 function App() {
     return (
@@ -30,6 +35,18 @@ function App() {
                             path="/research-interests-projects"
                             element={<Projects />}
                         />
+                        <Route path="/experiences" element={<Experience />} />
+                        <Route
+                            path="/teaching-services"
+                            element={<TeachingServices />}
+                        />
+                        <Route
+                            path="/awards"
+                            element={<AwardsAchievements />}
+                        />
+                        <Route path="/blogs" element={<Blogs />} />
+                        <Route path="/blogs/:id" element={<BlogDetail />} />
+
                         {/* Catch-all route */}
                         <Route path="*" element={<Home />} />
                     </Routes>

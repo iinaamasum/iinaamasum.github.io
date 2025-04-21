@@ -1,0 +1,21 @@
+{
+    "teachingServices": [
+        {
+            "title": "Social Worker",
+            "organization": "BD Clean Bagmara, Rajshahi",
+            "date": "2024 - Present",
+            "description": [
+                "Raised awareness on environmental conservation, cleanliness, and waste management.",
+                "Participated in community events to promote health and hygiene practices."
+            ]
+        },
+        {
+            "title": "AI Research Mentor",
+            "organization": "University Research Community",
+            "date": "2023 - Present",
+            "description": [
+                "Mentored students in AI, ML, and data analysis, organizing knowledge-sharing sessions."
+            ]
+        }
+    ]
+}

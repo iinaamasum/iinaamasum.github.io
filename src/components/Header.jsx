@@ -22,6 +22,7 @@ const Header = () => {
                     className={`text-2xl cormorant-garamond-bold ${linkClass([
                         '/',
                         '/portfolio',
+                        '/portfolio/',
                     ])}`}
                 >
                     <Link to="/portfolio">{"Masum's Homepage"}</Link>
@@ -35,15 +36,30 @@ const Header = () => {
                     >
                         Publications
                     </Link>
+                    <Link to="/blogs" className={linkClass(['/blogs'])}>
+                        Blogs
+                    </Link>
                     <Link
                         to="/research-interests-projects"
                         className={linkClass(['/research-interests-projects'])}
                     >
                         Research Interests & Projects
                     </Link>
-                    <span className="text-gray-700">Experience</span>
-                    <span className="text-gray-700">Teaching & Services</span>
-                    <span className="text-gray-700">Awards</span>
+                    <Link
+                        to="/experiences"
+                        className={linkClass(['/experiences'])}
+                    >
+                        Experiences
+                    </Link>
+                    <Link
+                        to="/teaching-services"
+                        className={linkClass(['/teaching-services'])}
+                    >
+                        Teaching & Services
+                    </Link>
+                    <Link to="/awards" className={linkClass(['/awards'])}>
+                        Awards
+                    </Link>
                     <span className="text-gray-700">CV</span>
                 </nav>
 

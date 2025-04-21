@@ -1,0 +1,33 @@
+{
+    "experiences": [
+        {
+            "title": "AI Trainer & Reviewer (Coding and Mathematics Contributor & Quality Control) ",
+            "company": "Remotasks",
+            "date": "June 2023 - Present",
+            "description": [
+                "Contributed to dataset creation and refined AI model outputs in coding and mathematics.",
+                "Performed rigorous quality control on AI-generated content for accuracy.",
+                "Promoted to a reviewer position in recognition of high-quality contributions."
+            ]
+        },
+        {
+            "title": "AI Trainer, Contributor & Quality Control",
+            "company": "Outlier",
+            "date": "July 2024 - September 2024",
+            "description": [
+                "Worked on AI model training, contributing to dataset creation and refining model outputs.",
+                "Ensured data quality by performing detailed quality control checks on AI-generated content."
+            ]
+        },
+        {
+            "title": "Intern - Full Stack Developer Remote, India",
+            "company": "Hirable",
+            "date": "August 2022 - November 2022",
+            "description": [
+                "Developed authentication systems and user dashboards to enhance user experience.",
+                "Implemented backend APIs to streamline data processing and integration.",
+                "Collaborated with the design team to optimize the user interface for improved usability."
+            ]
+        }
+    ]
+}

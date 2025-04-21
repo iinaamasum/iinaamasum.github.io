@@ -1,0 +1,37 @@
+{
+    "awardsAchievements": [
+        {
+            "title": "Vice Chancellor’s List Honoree for Academic Excellence",
+            "organization": "Rajshahi University of Engineering & Technology",
+            "date": "2022–2024",
+            "description": [
+                "Recognized for consistently outstanding academic performance, maintaining a top-tier GPA throughout the undergraduate program."
+            ]
+        },
+        {
+            "title": "Scholarship in University",
+            "organization": "RUET",
+            "date": "2020–2024",
+            "description": [
+                "Awarded the RUET Academic Scholarship four times for brilliant academic performance."
+            ]
+        },
+        {
+            "title": "Perfect Attendance Award",
+            "organization": "Notre Dame College, Dhaka",
+            "date": "2019",
+            "description": [
+                "Demonstrated commitment and responsibility by maintaining 100% attendance throughout the academic year."
+            ]
+        },
+        {
+            "title": "Secondary School Certificate (SSC) Examination",
+            "organization": "Dhaka Board",
+            "date": "2017",
+            "description": [
+                "Received a scholarship for excellence in the SSC examination in Talentpool Grade with a stipend from 2017 to 2019.",
+                "Ranked first in Gazipur district."
+            ]
+        }
+    ]
+}
