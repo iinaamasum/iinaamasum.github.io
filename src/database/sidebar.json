@@ -1,13 +1,10 @@
 {
-    "name": "Montasir Mahmud",
-    "description": "Student of Computer Science and Engineering",
-    "locations": [
-        "Dhaka, Bangladesh",
-        "Rajshahi, Banglesh"
-    ],
-    "email": "mmcse19@gmail.com",
-    "linkedin": "https://linkedin.com/in/mmcse19",
-    "github": "https://github.com/techbeeyt",
-    "googleScholar": "",
-    "kaggle": ""
+    "name": "Md. Masum Mia",
+    "description": "Student, Learner, Researcher",
+    "locations": ["Rajshahi, Banglesh"],
+    "email": "masum.cse19@gmail.com",
+    "linkedin": "https://linkedin.com/in/iinaamasum",
+    "github": "https://github.com/iinaamasum",
+    "googleScholar": "https://scholar.google.com/citations?hl=en&user=wb2oRgoAAAAJ",
+    "kaggle": "https://www.kaggle.com/iinaamasum"
 }
