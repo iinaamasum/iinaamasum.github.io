@@ -1,0 +1,58 @@
+{
+    "publications": [
+        {
+            "image": "https://ras-95.github.io/images/Research/Ongoing/ongoing.png",
+            "title": "**A First Look at Self-Admitted Miscommunications in GitHub Issues**",
+            "paper_url": "",
+            "authors": [
+                {
+                    "name": "Montasir Mahmud",
+                    "profile": ""
+                },
+                {
+                    "name": "Jabir Islam",
+                    "profile": "no"
+                }
+            ],
+            "notes": ["**Ongoing Work**"],
+            "description": "Misdiagnosis of tumors often leads to ineffective treatments, reducing patient survival rates. This study explores a unique hybrid approach, merging deep learning with traditional machine learning for accurate brain tumor detection and classification. Alongside, a custom CCNN+ML hybrid method was implemented, further refining results. MRI images were enhanced using Contrast Limited Adaptive Histogram Equalization (CLAHE) to optimize feature quality, boosting diagnostic precision.",
+            "supervisors": [
+                {
+                    "name": "Montasir Mahmud",
+                    "profile" : ""
+                }
+            ],
+            "url": "https://google.com"
+        },
+        {
+            "image": "https://ras-95.github.io/images/Research/Ongoing/ongoing.png",
+            "title": "**A First Look at Self-Admitted Miscommunications in GitHub Issues**",
+            "authors": [
+                {
+                    "name": "Montasir Mahmud",
+                    "profile": ""
+                },
+                {
+                    "name": "Jabir Islam",
+                    "profile": "no"
+                }
+            ],
+            "notes": [
+                "**Undergraduate Thesis**",
+                "Accepted - (ICCA 2024 - International Conference on Computing Advancements)"
+            ],
+            "description": "Misdiagnosis of tumors often leads to ineffective treatments, reducing patient survival rates. This study explores a unique hybrid approach, merging deep learning with traditional machine learning for accurate brain tumor detection and classification. Alongside, a custom CCNN+ML hybrid method was implemented, further refining results. MRI images were enhanced using Contrast Limited Adaptive Histogram Equalization (CLAHE) to optimize feature quality, boosting diagnostic precision.",
+            "supervisors": [
+                {
+                    "name": "Montasir Mahmud",
+                    "profile" : ""
+                },
+                {
+                    "name": "Jabir Islam",
+                    "profile": "no"
+                }
+            ],
+            "url": "https://google.com"
+        }
+    ]
+}
