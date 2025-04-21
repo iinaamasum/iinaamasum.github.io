@@ -60,7 +60,9 @@ const Header = () => {
                     <Link to="/awards" className={linkClass(['/awards'])}>
                         Awards
                     </Link>
-                    <span className="text-gray-700">CV</span>
+                    <Link to="/cv" className={linkClass(['/cv'])}>
+                        CV
+                    </Link>
                 </nav>
 
                 {/* Mobile Menu Button */}

@@ -4,6 +4,7 @@ import Sidebar from './components/Sidebar';
 import AwardsAchievements from './pages/AwardsAchievements';
 import BlogDetail from './pages/BlogDetail';
 import Blogs from './pages/Blogs';
+import CV from './pages/CV';
 import Experience from './pages/Experience';
 import Home from './pages/Home';
 import Projects from './pages/Projects';
@@ -44,6 +45,7 @@ function App() {
                             path="/awards"
                             element={<AwardsAchievements />}
                         />
+                        <Route path="/cv" element={<CV />} />
                         <Route path="/blogs" element={<Blogs />} />
                         <Route path="/blogs/:id" element={<BlogDetail />} />
 
