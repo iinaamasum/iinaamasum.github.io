@@ -5,7 +5,7 @@ const Sidebar = () => {
         <div className="flex flex-col justify-start items-center gap-8 pt-8">
             <div className="h-40 w-40 rounded-full p-2 border border-gray-200 overflow-hidden">
                 <img
-                    src="public/profile.jpeg"
+                    src="public/profile.png"
                     className="w-full h-full object-cover rounded-full"
                 />
             </div>

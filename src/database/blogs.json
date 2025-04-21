@@ -14,7 +14,7 @@
         {
             "title": "Enhancing Image Classification with Hybrid Neural Networks",
             "authors": "Md. Masum Mia",
-            "status": "Published",
+            "status": "Ongoing Work",
             "summary": "This research explores the integration of convolutional and recurrent neural networks to improve image classification tasks. The hybrid model leverages spatial and temporal features for enhanced accuracy.",
             "details": [
                 "This research investigates the integration of convolutional and recurrent neural networks to enhance image classification. By combining CNNs and RNNs, the hybrid model leverages spatial and temporal features, significantly improving accuracy on complex datasets. Tested on the CIFAR-10 dataset, the model achieved a 95% accuracy rate, highlighting the potential of hybrid architectures in computer vision applications. The study demonstrates that this approach can effectively handle diverse image recognition tasks, offering a robust solution for various applications.",
@@ -25,7 +25,7 @@
         {
             "title": "Optimizing Natural Language Processing with Transformer Models",
             "authors": "Md. Masum Mia",
-            "status": "In Review",
+            "status": "Ongoing Work",
             "summary": "This paper investigates the use of transformer models to optimize NLP tasks, focusing on efficiency and scalability. The study presents a novel approach to reduce computational costs while maintaining high performance.",
             "details": [
                 "This paper explores the optimization of NLP tasks using transformer models, focusing on efficiency and scalability. The proposed method involves a streamlined transformer architecture that reduces parameters without compromising accuracy. Experiments on the GLUE benchmark show competitive results, with significant improvements in processing speed and resource utilization. This approach addresses the computational challenges of traditional models, offering a more efficient solution for NLP applications.",

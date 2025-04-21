@@ -13,7 +13,7 @@ const BlogDetail = () => {
 
     return (
         <div>
-            <h1 className="text-2xl font-bold mb-4 text-blue-800">
+            <h1 className="text-2xl font-bold mb-4">
                 <TextFormatter text={blog.title} />
             </h1>
             <p className="italic font-normal">{blog.authors}</p>
