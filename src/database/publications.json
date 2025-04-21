@@ -2,54 +2,58 @@
     "publications": [
         {
             "image": "https://ras-95.github.io/images/Research/Ongoing/ongoing.png",
-            "title": "**A First Look at Self-Admitted Miscommunications in GitHub Issues**",
-            "paper_url": "",
+            "title": "**Multi-Scale Channel Attention with Dual Pooling and Dual Blocks for Gastrointestinal Abnormality Recognition in Endoscopic Images**",
+            "paper_url": "In Submission",
             "authors": [
                 {
-                    "name": "Montasir Mahmud",
+                    "name": "Md. Masum Mia",
                     "profile": ""
                 },
                 {
-                    "name": "Jabir Islam",
-                    "profile": "no"
+                    "name": "Rizoan Toufiq",
+                    "profile": ""
+                },
+                {
+                    "name": "Md. Zahirul Islam",
+                    "profile": ""
                 }
             ],
             "notes": ["**Ongoing Work**"],
-            "description": "Misdiagnosis of tumors often leads to ineffective treatments, reducing patient survival rates. This study explores a unique hybrid approach, merging deep learning with traditional machine learning for accurate brain tumor detection and classification. Alongside, a custom CCNN+ML hybrid method was implemented, further refining results. MRI images were enhanced using Contrast Limited Adaptive Histogram Equalization (CLAHE) to optimize feature quality, boosting diagnostic precision.",
+            "description": "Automating gastrointestinal abnormality classification aims to ease clinician workload and reduce costs. However, current deep learning models are often too resource-heavy for practical use. This study introduces an efficient framework combining MobileNet-v2 with a Dual-Pool Multi-Scale Channel Attention (MSCA) module to balance accuracy and efficiency. Evaluated on the Kvasir-v2 dataset with five-fold cross-validation, the proposed model achieves 93.84% accuracy, outperforming existing attention and non-attention methods. Model interpretability is enhanced using activation visualizations, Grad-CAM, confusion matrices, and ROC-AUC analysis, confirming both its effectiveness and reliability.",
             "supervisors": [
                 {
-                    "name": "Montasir Mahmud",
-                    "profile" : ""
+                    "name": "Rizoan Toufiq",
+                    "profile": "https://www.researchgate.net/profile/Rizoan-Toufiq"
                 }
             ],
             "url": "https://google.com"
         },
         {
-            "image": "https://ras-95.github.io/images/Research/Ongoing/ongoing.png",
-            "title": "**A First Look at Self-Admitted Miscommunications in GitHub Issues**",
+            "image": "https://ras-95.github.io/images/Research/Osteoarthritis%20Classification/Sequential%20Workflow_2-1.png",
+            "title": "**Exploring Augmentation Strategies for Balanced Skin Lesion Classification: An Explainable Lightly Tuned DenseNet 169 Architecture**",
             "authors": [
                 {
-                    "name": "Montasir Mahmud",
+                    "name": "Md. Masum Mia",
                     "profile": ""
                 },
                 {
-                    "name": "Jabir Islam",
+                    "name": "Anwar Hossain Efat",
+                    "profile": "no"
+                },
+                {
+                    "name": "S. M. Mahedy Hasan",
                     "profile": "no"
                 }
             ],
             "notes": [
-                "**Undergraduate Thesis**",
-                "Accepted - (ICCA 2024 - International Conference on Computing Advancements)"
+                "**Completed**",
+                "Accepted - (ICISET 2024 - International Conference on Innovations in Science, Engineering and Technology)"
             ],
-            "description": "Misdiagnosis of tumors often leads to ineffective treatments, reducing patient survival rates. This study explores a unique hybrid approach, merging deep learning with traditional machine learning for accurate brain tumor detection and classification. Alongside, a custom CCNN+ML hybrid method was implemented, further refining results. MRI images were enhanced using Contrast Limited Adaptive Histogram Equalization (CLAHE) to optimize feature quality, boosting diagnostic precision.",
+            "description": "Skin lesions reflect skin abnormalities, and skin cancer stems from uncontrolled cell growth due to injury. Early detection is vital but often hindered by resource-heavy traditional methods. This paper proposes an automated system using a Convolutional Neural Network (CNN) with Transfer Learning, specifically fine-tuning DenseNet169, achieving 98.42% accuracy on the ISIC 2020 dataset. Data augmentation techniques, including Prior Augmentation (PA), address class imbalance, reducing bias as shown in the confusion matrix. Additionally, GradCAM visualizations highlight key regions for lesion detection, improving model explainability.",
             "supervisors": [
                 {
-                    "name": "Montasir Mahmud",
-                    "profile" : ""
-                },
-                {
-                    "name": "Jabir Islam",
-                    "profile": "no"
+                    "name": "S. M. Mahedy Hasan",
+                    "profile": ""
                 }
             ],
             "url": "https://google.com"
