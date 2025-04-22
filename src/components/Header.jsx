@@ -25,17 +25,33 @@ const Header = () => {
                         '/portfolio/',
                     ])}`}
                 >
-                    <Link to="/portfolio">{"Masum's Homepage"}</Link>
+                    <Link
+                        className="text-black hover:text-black"
+                        to="/portfolio"
+                    >
+                        {'Md. Masum Mia'}
+                    </Link>
                 </div>
 
                 {/* Desktop Navigation */}
                 <nav className="hidden md:flex gap-6">
+                    <Link
+                        to="/portfolio"
+                        className={linkClass([
+                            '/',
+                            '/portfolio',
+                            '/portfolio/',
+                        ])}
+                    >
+                        About Me
+                    </Link>
                     <Link
                         to="/publications"
                         className={linkClass(['/publications'])}
                     >
                         Publications
                     </Link>
+
                     <Link to="/blogs" className={linkClass(['/blogs'])}>
                         Blogs
                     </Link>
@@ -82,11 +98,29 @@ const Header = () => {
             {isOpen && (
                 <nav className="md:hidden flex flex-col gap-4 px-6 pb-4">
                     <Link
+                        to="/portfolio"
+                        className={linkClass([
+                            '/',
+                            '/portfolio',
+                            '/portfolio/',
+                        ])}
+                        onClick={toggleMenu}
+                    >
+                        About Me
+                    </Link>
+                    <Link
                         to="/publications"
                         className={linkClass(['/publications'])}
                         onClick={toggleMenu}
                     >
                         Publications
+                    </Link>
+                    <Link
+                        to="/blogs"
+                        className={linkClass(['/blogs'])}
+                        onClick={toggleMenu}
+                    >
+                        Blogs
                     </Link>
                     <Link
                         to="/research-interests-projects"
@@ -95,10 +129,34 @@ const Header = () => {
                     >
                         Research Interests & Projects
                     </Link>
-                    <span onClick={toggleMenu}>Experience</span>
-                    <span onClick={toggleMenu}>Teaching & Services</span>
-                    <span onClick={toggleMenu}>Awards</span>
-                    <span onClick={toggleMenu}>CV</span>
+                    <Link
+                        to="/experiences"
+                        className={linkClass(['/experiences'])}
+                        onClick={toggleMenu}
+                    >
+                        Experiences
+                    </Link>
+                    <Link
+                        to="/teaching-services"
+                        className={linkClass(['/teaching-services'])}
+                        onClick={toggleMenu}
+                    >
+                        Teaching & Services
+                    </Link>
+                    <Link
+                        to="/awards"
+                        className={linkClass(['/awards'])}
+                        onClick={toggleMenu}
+                    >
+                        Awards
+                    </Link>
+                    <Link
+                        to="/cv"
+                        className={linkClass(['/cv'])}
+                        onClick={toggleMenu}
+                    >
+                        CV
+                    </Link>
                 </nav>
             )}
         </header>

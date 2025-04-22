@@ -1,4 +1,4 @@
-import { Route, Routes } from 'react-router-dom';
+import { Route, Routes, useLocation } from 'react-router-dom';
 import Header from './components/Header';
 import Sidebar from './components/Sidebar';
 import AwardsAchievements from './pages/AwardsAchievements';
@@ -12,22 +12,35 @@ import Publications from './pages/Publications';
 import TeachingServices from './pages/TeachingServices';
 
 function App() {
+    const location = useLocation();
+    const showSidebarOnMobile = ['/', '/portfolio', '/portfolio/'].includes(
+        location.pathname
+    );
+
     return (
         <div className="max-w-screen-xl mx-auto cormorant-garamond-regular text-lg">
             <Header />
-            <div className="grid grid-cols-12">
+            <div className="grid grid-cols-1 md:grid-cols-12">
                 {/* Sidebar */}
-                <div className="col-span-3">
+                <div
+                    className={`md:col-span-3 ${
+                        showSidebarOnMobile
+                            ? 'block md:block'
+                            : 'hidden md:block'
+                    }`}
+                >
                     <div className="sticky top-0 left-0">
                         <Sidebar />
                     </div>
                 </div>
 
                 {/* Main Content */}
-                <div className="col-span-9 pl-6 md:pl-10 py-10">
+                <div className="md:col-span-9 md:pl-6 md:py-10 py-6 px-4">
                     <Routes>
                         <Route path="/" element={<Home />} />
                         <Route path="/portfolio" element={<Home />} />
+                        <Route path="/portfolio/" element={<Home />} />{' '}
+                        {/* Added trailing slash route */}
                         <Route
                             path="/publications"
                             element={<Publications />}
@@ -48,7 +61,6 @@ function App() {
                         <Route path="/cv" element={<CV />} />
                         <Route path="/blogs" element={<Blogs />} />
                         <Route path="/blogs/:id" element={<BlogDetail />} />
-
                         {/* Catch-all route */}
                         <Route path="*" element={<Home />} />
                     </Routes>
