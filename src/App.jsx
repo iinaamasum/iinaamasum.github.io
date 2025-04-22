@@ -11,6 +11,7 @@ import Projects from './pages/Projects';
 import Publications from './pages/Publications';
 import TeachingServices from './pages/TeachingServices';
 
+
 function App() {
     const location = useLocation();
     const showSidebarOnMobile = ['/', '/portfolio', '/portfolio/'].includes(
